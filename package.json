@@ -1,0 +1,28 @@
+{
+  "name": "blaer-airtkn1-presale",
+  "version": "1.0.0",
+  "description": "AirTkn1 presale, vesting, and migration contracts for audit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PierreGuiot/blaer-airtkn1-presale.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PierreGuiot/blaer-airtkn1-presale/issues"
+  },
+  "homepage": "https://github.com/PierreGuiot/blaer-airtkn1-presale#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^3.0.14"
+  },
+  "type": "module",
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0"
+  }
+}
