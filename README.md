@@ -12,6 +12,7 @@ It includes the presale logic, token contract, vesting framework, and migration 
 ├─ AirTknMigration.sol     # Migration contract (v1 → v2)
 └─ AirTknVesting.sol       # Vesting contract for team & investors
 
+/frontend                  # Next.js + Tailwind CSS frontend application
 /scripts                   # Hardhat scripts
 /test                      # Hardhat test examples
 hardhat.config.ts         # Hardhat compiler & network settings
@@ -126,6 +127,22 @@ npx hardhat test
 
 Deploy (example)
 npx hardhat run scripts/send-op-tx.ts --network <network>
+
+🎨 Frontend Application
+
+This repository includes a Next.js frontend application with Tailwind CSS located in the `/frontend` directory.
+
+Setup & Run Frontend
+cd frontend
+npm install
+npm run dev
+
+The frontend will be available at http://localhost:3000
+
+Build for Production
+cd frontend
+npm run build
+npm start
 
 📄 Solidity Versions
 
